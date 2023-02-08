@@ -14,4 +14,4 @@ router.delete('/:id', auth, deleteTour)
 router.patch('/:id', auth, updateTour)
 router.patch("/like/:id", auth, likeTour)
 
-module.exports = router
+module.exports = router;
